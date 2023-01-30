@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Begoña Morales">
+        <title>Laboratorio</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div>
+        <form class="cont" id="formulario">
+            <h1> Create Account</h1>
+        
+            <div class="labels">
+               <label for="name">Nombre</label>
+               <input type="text" class="form_info" name="name" id="name" required>
+               <span id="nameError"></span>
+            </div>
+
+            <div class="labels">
+               <label for="email">Email</label>
+               <input type="email" class="form_info" name="email" id="email" required>
+               <span id="emailError"></span>
+            </div>
+
+            <div class="labels">
+               <label for="password">Clave</label>
+               <input type="password" class="form_info" name="password" id="password" required>
+               <span id="passwordError"></span>
+            </div>
+
+            <div class="labels">
+                <label for="password">Confirme su clave</label>
+                <input type="password" class="form_info" name="password2" id="password2" required>
+                <span id="password2Error"></span>
+            </div>
+                <br>
+                <button type="submit">ENVIAR</button>
+
+           </form>
+        </div>
+
+    <script src="index.js"></script>
+
+    </body>
+
+</html>
